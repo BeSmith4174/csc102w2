@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>
+        UAT Space Program
+    </title>
+</head>
+
+
+<body>
+
+    <img src="C:\Users\besmi\OneDrive\Pictures\UATspacelogo.jpg">
+    <h1>
+        Bobby's magnificant page!
+    </h1>
+
+
+    <p>
+        Bobby's paragraph tag test!
+
+    </p>
+
+    <script>
+        //created an alert test
+        //alert("Test,Test,test");
+        
+        document.write("document.write function test")
+    </script>
+    <br>
+    <br>
+    <P id="countDownTimer">Start countdown here...</P>
+    </p>
+
+    <br>
+    <button onclick="countDown();">Start</button>
+    <button> Stop</button>
+
+    <script>
+        //create countdown fucntion from 10 to blast off
+        function countDown() {
+            var count = 10;
+
+            // start count at 10
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 1000);
+
+
+            //counts to 9
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 2000);
+
+
+
+            //counts to 8
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 3000);
+
+            // counts to 7
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 4000);
+
+            // counts to 6
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 5000);
+
+            // counts to 5
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 6000);
+
+            // counts to 4
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 7000);
+
+            // counts to 3
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 8000);
+
+            // counts to 2
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 9000);
+
+            // counts to one
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 10000);
+
+            //blastoff 
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = "BLASTOFF!!!";
+                count = count - 1;
+
+            }, 11000);
+
+            // insert image
+
+
+        }
+
+    </script>
+
+</body>
+
+
+</html>
