@@ -1,0 +1,12 @@
+body {
+background-color:goldenrod;
+}
+
+
+.butto{
+background-color: orange;
+width: 100px;
+height: 30px ;
+border-radius: 12px;
+border-color: green
+}
