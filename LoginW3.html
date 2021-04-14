@@ -2,34 +2,47 @@
 <html>
 <!-- This is my login page
 by Bobby Smith
-email
+bobsmit1@uat.edu
 CS102 SP2021 Wk3-1
 -->
 
 
 <head>
+    <!-- this specifies a link to an external script -->
     <script src="Loginwk3.js"></script>
+    <!--Title of page-->
     <title>
         UATSpace login
 
     </title>
 </head>
 
+<!-- this will show the content of the document-->
 
 <body>
+    <!--Section heading-->
     <h1>
+        <!--Heading Title-->
         Welcome to UATSpace login
 
     </h1>
+    <!--identifier for the log in status  -->
     <p id="loginStatus">
+        <!--Status of the login message  -->
         status on login...
+        <!--the paragraph field wre my conditions are set for login -->
     </p>
+    <!--line break  -->
     <br>
+    <!--identifier showing the info needed to enter   -->
     <form id="creditSubmit" onsubmit="return false">
-
+        <!--first name entry identifier  -->
         First Name: <input type="text" is id="fName" /><br>
+        <!-- last name entry identifier -->
         Last Name: <input type="text" is id="lName" /><br>
+        <!-- badge number entry identifier -->
         Badge Number:<input type="number" is id="badgeID" /><br>
+        <!-- form control for submiting entered data  -->
         <input type="submit" onclick="checkCreds();" />
     </form>
 
